@@ -1,0 +1,29 @@
+form {
+  max-width: 600px;
+  background-color: #dde4ff;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  padding: 30px;
+}
+.title {
+  color: #6dc7d1;
+  font-size: 32px;
+  font-weight: 400;
+}
+.subtitle {
+  color: #a1b0e7;
+  font-size: 18px;
+  font-weight: 400;
+}
+.question {
+  color: #a1b0e7;
+  font-size: 24px;
+  font-weight: 400;
+}
+label {
+  border-radius: 100px;
+  border: 1px;
+}
+.score {
+  color: #a1b0e7;
+}

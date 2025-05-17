@@ -1,9 +1,13 @@
+
+
+import "./App.css";
+
 import React, { useState } from 'react';
 import Header      from './components/Header/Header';
 import Hero        from './components/Hero/Hero';
 import CBTChat     from './components/CBTChat/CBTChat';
-import PHQ9        from './components/PHQ9/PHQ9';
 import MoodTracker from './components/MoodTracker/MoodTracker';
+import SurveyForm from "./assets/components/SurveyForm/SurveyForm";
 import Footer      from './components/Footer/Footer';
 
 const MENU = [
@@ -46,8 +50,9 @@ export default function App() {
           {renderContent()}
         </main>
       )}
-
+<SurveyForm />
       <Footer />
     </div>
   );
+
 }
