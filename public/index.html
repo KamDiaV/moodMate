@@ -28,9 +28,31 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+      <link rel="stylesheet" href="/src/assets/components/Header/Header.css">
     <title>moodMate – напарник по настроению</title>
   </head>
   <body>
+    <header>
+      <div class="container header__container">
+
+        <button class="header__burger-btn">
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+        </button>
+
+        <a href="#" class="header__logo">
+          <img src="/src/assets/components/Header/header-logo.svg" alt="logo" class="header__title">
+        </a>
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li class="header__item"><a href="#" class="header__link">О проекте</a></li>
+            <li class="header__item"><a href="#" class="header__link">Контакты</a></li>
+            <li class="header__item"><a href="#" class="header__link">Чат</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -43,5 +65,14 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+      <footer class="footer">
+        
+        <ul class="footer__list">
+          <li class="footer__item">О проекте</li>
+          <li class="footer__item">Политика конфиденциальности</li>
+          <li class="footer__item">2025</li>
+        </ul>
+
+      </footer>
   </body>
 </html>
