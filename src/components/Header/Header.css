@@ -1,0 +1,85 @@
+.header {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 12px 24px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Логотип слева */
+.header__logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+/* Меню по центру */
+.header__nav {
+  flex: 1;                /* занять всё свободное пространство */
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.header__nav-item {
+  background: none;
+  border: none;
+  font-size: 1em;
+  color: #555;
+  padding: 8px;
+  cursor: pointer;
+  transition: color 0.2s, border-bottom 0.2s;
+}
+
+.header__nav-item:hover {
+  color: #2563eb;
+}
+
+.header__nav-item--active {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+}
+
+/* Профиль справа */
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header__avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header__username {
+  font-size: 1em;
+  color: #333;
+}
+
+.header__burger {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  background: none;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+.header__burger span {
+  width: 20px;
+  height: 2px;
+  background: #333;
+  border-radius: 1px;
+}
+
+@media (max-width: 600px) {
+  .header__nav { display: none; }
+  .header__burger { display: flex; }
+  .header__username { display: none; }
+}

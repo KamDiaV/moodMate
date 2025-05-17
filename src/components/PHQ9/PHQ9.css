@@ -1,0 +1,96 @@
+.phq9 {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.phq9 h2 {
+  margin-bottom: 24px;
+  font-size: 1.75em;
+  color: #2563eb;
+  text-align: center;
+}
+
+.phq9__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.phq9__question {
+  border: none;
+  padding: 0;
+}
+
+.phq9__legend {
+  font-weight: 500;
+  margin-bottom: 8px;
+  font-size: 1.1em;
+}
+
+.phq9__options {
+  display: flex;
+  gap: 16px;
+}
+
+.phq9__option {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.phq9__option input {
+  accent-color: #3b82f6; /* современный цвет радио */
+  width: 1em;
+  height: 1em;
+}
+
+.phq9__label-text {
+  font-size: 1em;
+  color: #333;
+}
+
+.phq9__submit {
+  align-self: center;
+  padding: 12px 24px;
+  background: #3b82f6;
+  color: #fff;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.phq9__submit:hover {
+  background: #2563eb;
+}
+
+/* Результат */
+.phq9__result {
+  margin-top: 24px;
+  padding: 16px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1.2em;
+}
+
+.phq9__result--low {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.phq9__result--medium {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.phq9__result--high {
+  background: #fee2e2;
+  color: #991b1b;
+}
