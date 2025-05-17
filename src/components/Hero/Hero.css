@@ -1,0 +1,23 @@
+.hero {
+  background: #3b82f6;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 12px;
+  margin: 24px auto;
+  max-width: 800px;
+}
+
+.hero__title {
+  font-size: 2em;
+  margin-bottom: 12px;
+}
+
+.hero__subtitle {
+  font-size: 1.2em;
+  opacity: 0.9;
+}
+
+.hero__welcome {
+  margin-bottom: 24px;
+}
