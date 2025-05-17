@@ -31,23 +31,30 @@
   <body>
     <header>
       <div class="container header__container">
-
-        <button class="header__burger-btn">
-          <div class="burger-line"></div>
-          <div class="burger-line"></div>
-          <div class="burger-line"></div>
-        </button>
-
         <a href="#" class="header__logo">
           <img src="/src/assets/components/Header/header-logo.svg" alt="logo" class="header__title">
         </a>
-        <nav class="header__menu">
-          <ul class="header__list">
-            <li class="header__item"><a href="#" class="header__link">О проекте</a></li>
-            <li class="header__item"><a href="#" class="header__link">Контакты</a></li>
-            <li class="header__item"><a href="#" class="header__link">Чат</a></li>
+        <div class="header-menu">
+          <input
+            type="checkbox"
+            id="burger-checkbox"
+            class="header-menu__checkbox"
+          />
+          <label for="burger-checkbox" class="header-menu__burger">
+            <span></span>
+          </label>
+          <ul class="header-menu__list">
+            <li>
+              <a href="#" class="header-menu__list-item"> О проекте</a>
+            </li>
+            <li>
+              <a href="#" class="header-menu__list-item">Контакты</a>
+            </li>
+            <li>
+              <a href="#" class="header-menu__list-item">Чат</a>
+            </li>
           </ul>
-        </nav>
+        </div>
       </div>
     </header>
     <noscript>You need to enable JavaScript to run this app.</noscript>
