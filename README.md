@@ -61,15 +61,9 @@
 
 ---
 
-## 🤝 Команда  
+## 🤝 Команда
 
-<a href="https://github.com/KamDiaV/moodMate/graphs/contributors">
-  <img
-    src="https://contrib.rocks/image?repo=KamDiaV/moodMate&columns=8"
-    alt="Contributors"
-    width="216"
-  />
-</a>
+[![Contributors](https://contrib.rocks/image?repo=KamDiaV/moodmate&columns=8)](https://github.com/KamDiaV/moodmate/graphs/contributors)
 
 ---
 
