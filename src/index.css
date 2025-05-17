@@ -1,10 +1,16 @@
+:root {
+  --belyy: #fefefe;
+  --sero-lilovyy: #a1b0e7;
+  --chernyy: #1d1919;
+  --gryazno-goluboy: #6dc7d1;
+  --goluboy-dlya-oprosnika-: #dde4ff;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --font-family: "Helvetica", sans-serif;
+  --second-family: "Inter", sans-serif;
+  --third-family: "IBM Plex Sans", sans-serif;
 }
 
 code {
