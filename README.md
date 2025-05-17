@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# MoodMate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**MoodMate** — это SPA веб-приложение для само-помощи и поддержания психического здоровья с помощью коротких CBT-техник, самодиагностики и трекинга настроения.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Ключевые возможности
 
-### `npm start`
+1. **CBT-чат-бот «Микро-переключение»**  
+   - Мгновенное облегчение тревоги через дыхательные и заземляющие упражнения.  
+   - Кнопка «Ещё техника» для новых советов.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Самодиагностика (PHQ-9)**  
+   - Форма из 9 вопросов с оценкой 0–3.  
+   - Мгновенная оценка риска депрессии: Low / Medium / High.  
+   - Ссылка на ресурсы (горячие линии, гайды).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Трекер настроения + прогноз**  
+   - Ежедневная заметка (текст + оценка 1–10).  
+   - Анализ тональности текста через Sentiment API.  
+   - График тональности и прогноз на завтра.  
+   - Подпрогнозный совет (микро-медитация и т. д.).
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Технологический стек
 
-### `npm run build`
+- **Frontend:** React (Create React App)  
+- **Backend/API:** Python FastAPI или Node.js + Express  
+- **CBT-бот:** DialoGPT-small (Hugging Face)  
+- **Модель PHQ-9:** scikit-learn (LogisticRegression/RandomForest)  
+- **Sentiment:** nlptown/bert-multilingual-uncased-sentiment  
+- **Embeddings:** sentence-transformers/all-mpnet-base-v2  
+- **Хранение данных:** JSON-файл  
+- **Графики:** Chart.js  
+- **Развёртывание:** GitHub pages
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## команда  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<a href="https://github.com/KamDiaV/moodMate/graphs/contributors">
+  <img
+    src="https://contrib.rocks/image?repo=KamDiaV/moodMate&columns=8"
+    alt="Contributors"
+    width="216"
+  />
+</a>
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MoodMate — ваш быстрый помощник для борьбы с тревогой и улучшения настроения каждый день!
