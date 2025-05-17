@@ -1,0 +1,22 @@
+.footer {
+    margin: 0 75px;
+}
+.footer__logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: start;
+    margin-bottom: 200px;
+}
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+}
+.footer__item {
+    font-size: 24px;
+}
+.footer__link {
+    color: black;
+    text-decoration: none;
+}

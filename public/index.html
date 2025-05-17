@@ -10,6 +10,7 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="stylesheet" href="/src/assets/components/Footer/Footer.css">
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -62,11 +63,14 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
       <footer class="footer">
-        
+        <div class="footer__logo">
+          <img src="/src/assets/components/Header/header-logo.svg" alt="logo">
+          <img src="/src/assets/components/Footer/telegram.svg" alt="telegram">
+        </div>
         <ul class="footer__list">
-          <li class="footer__item">О проекте</li>
-          <li class="footer__item">Политика конфиденциальности</li>
-          <li class="footer__item">2025</li>
+          <li class="footer__item"><a href="#" class="footer__link">О проекте</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Политика конфиденциальности</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">© 2025</a></li>
         </ul>
 
       </footer>
